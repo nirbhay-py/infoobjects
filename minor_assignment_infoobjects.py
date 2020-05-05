@@ -43,7 +43,7 @@ def prob_3(inp_string):
 		for j in range(len(final)):
 			for k in range(len(dict[int(inp_string[i])])):
 				median.append(final[j]+dict[int(inp_string[i])][k])
-		final = median[:]
+		final = median[:] #delete
 	print(final)
 
 
